@@ -38,5 +38,7 @@ upload_files(directory_path=directory_path,
 You can customize the types of files to transfer to S3 and Google Cloud Storage by specifying the s3_file_types and gcs_file_types parameters when calling upload_files.
 
 # Dependencies
+```
 google-cloud-storage
 boto3
+```
